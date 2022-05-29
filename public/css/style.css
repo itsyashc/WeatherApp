@@ -1,0 +1,98 @@
+
+body{
+    background-color: #E9EFC0;
+    margin: auto 3%;
+}
+
+.row{
+    padding: 1% 2% 1%;
+}
+.heading{
+    color: #4E944F;
+}
+.icon{
+    width: 8%;
+}
+.search{
+    padding: 0.5% 11%;
+}
+.search-input{
+    background: transparent;
+}
+.btn{
+    background-color: #83BD75;
+    color: #E9EFC0;
+}
+
+.main-box{
+    margin: 1.5% 8.5%;
+    width: 75%;
+    height: 52%;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: 0px 0px 9px 7px #B4E197;
+    background-image: url(img/fog-dark-clouds-mountains.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.MS-1,.MS-2{
+    color: #E9EFC0;
+    position: absolute;
+    bottom: 5%;
+}
+
+.MS-2{
+    text-align: right;
+    right: 3%;
+}
+
+
+.des-box{
+    width: 75%;
+    height: 16%;
+    border-radius: 15px;
+    margin: 27% 8.5% 1.5%;
+    position: absolute;
+    box-shadow:0px 0px 7px 1px #B4E197 ;
+    background-color: #4E944F;
+}
+
+.des-box .des{
+    color: #E9EFC0;
+    letter-spacing: 2px;
+
+}
+.description,.humidity,.feels_like {
+    letter-spacing: normal;
+    text-align: center;
+}
+
+@media (max-width:1000px) {
+    .heading{
+        text-align: center;
+    }
+    .main-box{
+        height: 42%;
+    }
+    .MS-1{
+        text-align: center;
+        top: 4%;
+        left: 0%;
+    }
+    .MS-2{
+        text-align: center;
+        line-height: 2%;
+        bottom: 1%;
+        right: 0%;
+    }
+    .des-box{
+        text-align: center;
+        height: 36%;
+        padding: 4%;
+        top:50%;
+    }
+
+}
