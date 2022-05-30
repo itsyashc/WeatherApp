@@ -73,29 +73,28 @@ body{
 @media (max-width:1000px) {
     .heading{
         text-align: center;
-        margin-top: 3%;
+        margin-top: 4%;
     }
     .main-box{
-        /* height: 42%; */
-        height: 230px;
+        height: 320px;
     }
     .MS-1{
         text-align: center;
         bottom: 15%;
         left: 0%;
+        line-height: 11%;
     }
     .MS-2{
         text-align: center;
-        line-height: 2%;
+        line-height: 3%;
         bottom: 1%;
         right: 0%;
     }
     .des-box{
         text-align: center;
-        /* height: 36%; */
-        height: 187px;
+        height: 200px;
         padding: 4%;
-        top:50%;
+        top: 370px;
     }
 
 }
