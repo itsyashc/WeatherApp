@@ -73,13 +73,14 @@ body{
 @media (max-width:1000px) {
     .heading{
         text-align: center;
+        margin-top: 3%;
     }
     .main-box{
         height: 42%;
     }
     .MS-1{
         text-align: center;
-        top: 4%;
+        bottom: 15%;
         left: 0%;
     }
     .MS-2{
