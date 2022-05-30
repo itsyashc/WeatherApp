@@ -76,7 +76,8 @@ body{
         margin-top: 3%;
     }
     .main-box{
-        height: 42%;
+        /* height: 42%; */
+        height: 230px;
     }
     .MS-1{
         text-align: center;
@@ -91,7 +92,8 @@ body{
     }
     .des-box{
         text-align: center;
-        height: 36%;
+        /* height: 36%; */
+        height: 187px;
         padding: 4%;
         top:50%;
     }
