@@ -4,7 +4,6 @@
   "description": "It's a weather app.",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "KDyash",
