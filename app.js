@@ -4,7 +4,7 @@ const app = express();
 
 // To make HTTPS request in node : {It's a native node module "in-built"} 
 const https = require("https");
-
+require('dotenv').config()
 const bodyParser = require("body-parser");
 const { json } = require("express/lib/response");
 app.use(bodyParser.urlencoded({extended:true}));
@@ -35,7 +35,7 @@ app.post("/", function(req,res){
     //res.send("Server is running...") //we can only use one res.send because we can only sen response once to client.
 
  const query = req.body.cityName;
- const apiKey = "197755b8817ca4ac8193851611a529c5"
+ const apiKey = process.env.API;
  const units = "metric"
  const url = "https://api.openweathermap.org/data/2.5/weather?appid="+ apiKey +"&q="+ query +"&units="+ units 
  
