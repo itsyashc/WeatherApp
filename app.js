@@ -20,7 +20,7 @@ let wHumidity = "";
 let wFeels = "";
 
 app.get("/", function(req, res){
-    res.sendFile(__dirname + "/index.html");
+    
     let options = {hour: "numeric", minute:"numeric"};
     let optionDate = {year:"numeric", month:"long", day:"numeric", weekday:"long"};
     let today = new Date();
